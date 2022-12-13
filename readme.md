@@ -7,10 +7,10 @@ The paper originally generate positive and negative samples from the anchor exam
 
 The datasets should be arranged in jsonlines format. During training, the input follows this format:
 ```
-"问题生成：..CONTEXT REGION..[HL]..ANSWER REGION..[HL]..CONTEXT REGION.."
+"问题生成：...CONTEXT REGION...[HL]...ANSWER REGION...[HL]...CONTEXT REGION..."
 ```
-while the generated question is a natural chinese representation.
-## Dependecies
+while the generated question is a natural Chinese representation.
+## Dependencies
 * python >= 3.6
 * pytorch == 1.4
 * transformers == 3.0.2
